@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogDataPlugs</class>
+ <widget class="QDialog" name="DialogDataPlugs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Data Plugs</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>621</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Bodoni MT Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>BESOIN DE VENTE :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Bodoni MT Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>PRODUCTION TOTALE :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Bodoni MT Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>CONSOMMATION INTERMEDIAIRE :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Bodoni MT Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>VALEUR AJOUTEE :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="digitCount">
+       <number>12</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLCDNumber" name="lcdNumber_2">
+      <property name="digitCount">
+       <number>12</number>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLCDNumber" name="lcdNumber_3">
+      <property name="digitCount">
+       <number>12</number>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLCDNumber" name="lcdNumber_4">
+      <property name="digitCount">
+       <number>12</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>383</width>
+     <height>124</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;set/reset root data &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Advanced Parameters</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="quit">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Quit App</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="customer">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Customers Interface</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="close">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>My Notes</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Sellings Interface</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="delivery">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Bell MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Delivery Slip</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>close</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogDataPlugs</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>99</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
