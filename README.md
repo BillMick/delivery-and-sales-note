@@ -2,7 +2,7 @@
 Basic delivery and sales note management app with C++, SQLite and Qt.
 
 # main task to do
-**Reconstruct database architecture based on the requests done in the code**.
+**Reconstruct database architecture** based on the requests done in the code.
 
 # before run program
 Ensure to have **Qt5**, **SQLite3** and **g++** installed. 
